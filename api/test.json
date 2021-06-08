@@ -1,0 +1,22 @@
+{
+    "1": {
+      "prod_id": "C156",
+      "prod_name": "JK CEMENT",
+      "prod_img": "null",
+      "prod_desc": "xyz",
+      "prod_added": "today_date",
+      "prod_modified": "modificationdate",
+      "prod_last_mod_by": "db role",
+      "prod_last_job": "last script name"
+    },
+    "2": {
+      "prod_id": "C158",
+      "prod_name": "AMBUJA CEMENT",
+      "prod_img": "null",
+      "prod_desc": "xyz",
+      "prod_added": "today_date",
+      "prod_modified": "modificationdate",
+      "prod_last_mod_by": "db role",
+      "prod_last_job": "last script name"
+    }
+  }
