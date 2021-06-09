@@ -30,7 +30,7 @@ exports.add_user_data = (req, res)=>{
         })
         user_sc.save({}, (err, doc) => {
             if (err) throw err;
-            //console.log(doc);
+            
             res.status(200).send(user_dt);
     
         });
