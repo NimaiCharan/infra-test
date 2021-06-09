@@ -14,10 +14,9 @@ var User_data = mongoose.Schema({
         required: true
     },
     "Mobile_number": {
-        type: Number,
+        type: String,
         required: true,
-        maxlength: 10,
-        minlength:10
+        
 
     },
     "Role": {
@@ -38,3 +37,36 @@ var User_data = mongoose.Schema({
 });
 
 module.exports = mongoose.model('user_data',User_data)
+
+
+var user_security = mongoose.Schema({
+    "User_id": {
+        type: String,
+        required: true
+    },
+    "Password": {
+        type: String,
+        required: true
+    },
+    "Password_hint": {
+        type: String,
+        required: true
+    },
+    "Hint_ans": {
+        type: String,
+        required: true
+    },
+    "Created_at": {
+        type: Date,
+        required: true,
+        default: Date.now
+    },
+    "Last_modified": {
+        type: Date,
+        required: true,
+        default: Date.now
+    },
+
+
+});
+module.exports = mongoose.model('user_sec',user_security);
